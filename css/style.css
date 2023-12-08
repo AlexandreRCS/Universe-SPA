@@ -9,6 +9,8 @@
 
 :root{
     font-size: 62.5%;
+    --color-header:#C4C4CC;
+    --color-header-hover:#FFFFFF;
 }
 
 body{
@@ -30,12 +32,24 @@ header{
 nav{
     display: flex;
     gap: 3.2rem;
-    
+    cursor: pointer;
 }
-
 header img{
     font-size: 4.2rem;
 }
+
+nav a{
+    color:var(--color-header) ;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+}
+
+nav a:hover{
+    color: var(--color-header-hover);
+}
+
 
 main{
     width: 100%;
