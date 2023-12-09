@@ -12,6 +12,7 @@
     --color-header:#C4C4CC;
     --color-header-hover:#FFFFFF;
     --color-tt:#E1E1E6;
+    --color-neural-whiter:#FFFFFF;
 }
 
 body{
@@ -63,6 +64,14 @@ h1{
     font-style: normal;
     line-height: 6.0rem;
     font-weight: 700;
+}
+
+button{
+    padding: 1.2rem 3.2rem;
+    border-radius: .5rem;
+    background: none;
+    border: 2px solid var(--color-neural-whiter);
+    color: var(--color-neural-whiter);
 }
 
 section.home{
